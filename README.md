@@ -1,15 +1,46 @@
 # Quantitative interview questions and strategies
 
-## Table of content
+## Table of Content
 ---
 
+  * [Table of content](#table-of-content)
+  * [Introduction: objective and scope](#introduction-objective-and-scope)
+  * [Calculus and linear algebra](#calculus-and-linear-algebra)
+  * [Probability](#probability)
+    * [Combinatorics](#combinatorics)
+    * [Conditional probability](#conditional-probability)
+    * [Probability Distributions](#probability-distributions)
+    * [Expectations, variance, and covariance](#expectations-variance-and-covariance)
+    * [Universality of Uniform distribution](#universality-of-uniform-distribution)
+    * [Order statistics](#order-statistics)
+    * [Graph\-based solutions involving multiple random variables](#graph-based-solutions-involving-multiple-random-variables)
+    * [Approximation trick1: Central limit theorem](#approximation-trick1-central-limit-theorem)
+    * [Approximation trick2: Poisson paradigm](#approximation-trick2-poisson-paradigm)
+    * [Poisson count/time duality](#poisson-counttime-duality)
+    * [Markov chain tricks](#markov-chain-tricks)
+  * [Statistics](#statistics)
+  * [Programming essentials](#programming-essentials)
+  * [Numerical methods and optimization](#numerical-methods-and-optimization)
+  * [Machine learning concepts](#machine-learning-concepts)
+  * [Contribute](#contribute)
 
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ---
 
 ## Introduction: objective and scope
 
+Objective:
+
+
+Content:
 Pertinent, concise, intuitive, self-contained.
+
+Focus:
+Generalizable knowledge points, methods and problem solving strategies rather than exact questions.
+(For those interested in interview question pool please visit xxx and yyy instead
+
+
 
 
   
