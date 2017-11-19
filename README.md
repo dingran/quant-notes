@@ -1,35 +1,5 @@
 # Quantitative interview questions and strategies
 
-## Table of Content
----
-
-  * [Introduction](#introduction)
-    * [Purpose](#purpose)
-    * [Who are we](#who-are-we)
-    * [Writing guidelines](#writing-guidelines)
-  * [Calculus and linear algebra](#calculus-and-linear-algebra)
-  * [Probability](#probability)
-    * [Combinatorics](#combinatorics)
-    * [Conditional probability](#conditional-probability)
-    * [Probability Distributions](#probability-distributions)
-    * [Expectations, variance, and covariance](#expectations-variance-and-covariance)
-    * [Universality of Uniform distribution](#universality-of-uniform-distribution)
-    * [Order statistics](#order-statistics)
-    * [Graph\-based solutions involving multiple random variables](#graph-based-solutions-involving-multiple-random-variables)
-    * [Approximation trick1: Central limit theorem](#approximation-trick1-central-limit-theorem)
-    * [Approximation trick2: Poisson paradigm](#approximation-trick2-poisson-paradigm)
-    * [Poisson count/time duality](#poisson-counttime-duality)
-    * [Markov chain tricks](#markov-chain-tricks)
-  * [Statistics](#statistics)
-  * [Programming essentials](#programming-essentials)
-  * [Numerical methods and optimization](#numerical-methods-and-optimization)
-  * [Machine learning concepts](#machine-learning-concepts)
-  * [Contribute](#contribute)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
-
----
-
 ## Introduction
 
 ### Purpose
@@ -47,8 +17,32 @@ We will focus on generalizable knowledge points, methods and problem solving str
 (For those interested in interview question pool please visit *link_to_other_sites* instead)
 
 
-  
-## Calculus and linear algebra
+## Table of Content
+---
+
+  * [Calculus](#calculus)
+  * [Linear algebra](#linear-algebra)
+  * [Probability](#probability)
+  * [Statistics](#statistics)
+  * [Programming essentials](#programming-essentials)
+  * [Numerical methods and optimization](#numerical-methods-and-optimization)
+  * [Machine learning concepts](#machine-learning-concepts)
+  * [Contribute](#contribute)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+---
+
+## Calculus
+
+
+## Linear algebra
+- vector and matrix multiplication
+- matrix operations (transpose, determinant, inverse etc)
+- types of matrices (symmetric, hermition, orthogonal etc)
+- eigenvalue and eigenvectors
+- matrix calculus (gradients, hessian etc
+- useful theorems
 
 
 
@@ -59,58 +53,56 @@ Once you recognize the underlying mechanics of a problem it is usually no more t
 What this requires is a thorough and, more importantly, intuitive understanding of the key concepts, coupled with sufficient amount of practice to improve your patter recognition skills.
 Probability problems should be fun to solve
 
-### Event, outcome, random variable, and probability
+- Event, outcome, random variable, and probability
 
+- Combinatorics
+    - **Roadmap** Permutation
+    - Combinations
+    - Inclusion-exclusion
 
-### Combinatorics
-- **Roadmap** Permutation
-- Combinations
-- Inclusion-exclusion
-
-### Conditional probability
-- Bayes rule
-- Law of total probability
+- Conditional probability
+    - Bayes rule
+    - Law of total probability
  
-### Probability Distributions
-- Expectation and variance equations
-- Discrete probability and stories
-- Continuous probability: uniform, gaussian, poisson
+- Probability Distributions
+    - Expectation and variance equations
+    - Discrete probability and stories
+    - Continuous probability: uniform, gaussian, poisson
 
-### Expectations, variance, and covariance
-- linearity of expectation
-- law of total expectation
-- covariance and correlation
-- independence implies zero correlation
-- hash collision probability
+- Expectations, variance, and covariance
+    - linearity of expectation
+    - law of total expectation
+    - covariance and correlation
+    - independence implies zero correlation
+    - hash collision probability
 
-### Universality of Uniform distribution
-- proof
-- circle problem
+- Universality of Uniform distribution
+    - proof
+    - circle problem
 
-### Order statistics
-- expectation of min and max and random variable
+- Order statistics
+    - expectation of min and max and random variable
 
-### Graph-based solutions involving multiple random variables
-- breaking stick
-- meeting at the train station
-- simplex
-- frog jump
+- Graph-based solutions involving multiple random variables
+    - breaking stick
+    - meeting at the train station
+    - simplex
+    - frog jump
 
-### Approximation trick1: Central limit theorem
-- fake coin
-- monte carlo integration
+- Approximation trick1: Central limit theorem
+    - fake coin
+    - monte carlo integration
 
-### Approximation trick2: Poisson paradigm
-- birthday problem, birthday triplets, near birthday problem
-- repeated draws
+- Approximation trick2: Poisson paradigm
+    - birthday problem, birthday triplets, near birthday problem
+    - repeated draws
 
-### Poisson count/time duality
-- possion from possions
+- Poisson count/time duality
+    - possion from possions
 
-### Markov chain tricks
-- various games
-    - coin toss consecutive H
-- introduction of martingale
+- Markov chain tricks
+    - various games
+    - introduction of martingale
 
 
 ## Statistics
@@ -125,20 +117,16 @@ The bare minimum of coding concept you need to know well.
 
 Material on these topics are widely available elsewhere, so we will just cite them here.
 
-Data structures:
+- Data structures:
+    - array, dict, link list, tree, heap, graph, ways of representing sparse matrix
 
-array, dict, link list, tree, heap, graph, ways of representing sparse matrix
+- Sorting:
+    - brilliant.org
 
-Sorting:
-
-brilliant.org
-
-Tree/Graph related algorithms
-
-traversal (BFS, DFS)
-shortest path (two sided BFS, djikstra)
-
-Recuision, iteration and DP
+- Tree/Graph related algorithms
+    - traversal (BFS, DFS)
+    - shortest path (two sided BFS, djikstra)
+- Recuision, iteration and DP
 
 ## Numerical methods and optimization
 - computer errors (e.g. float)
