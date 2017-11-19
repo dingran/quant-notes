@@ -3,8 +3,10 @@
 ## Table of Content
 ---
 
-  * [Table of content](#table-of-content)
-  * [Introduction: objective and scope](#introduction-objective-and-scope)
+  * [Introduction](#introduction)
+    * [Purpose](#purpose)
+    * [Who are we](#who-are-we)
+    * [Writing guidelines](#writing-guidelines)
   * [Calculus and linear algebra](#calculus-and-linear-algebra)
   * [Probability](#probability)
     * [Combinatorics](#combinatorics)
@@ -28,19 +30,21 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ---
 
-## Introduction: objective and scope
+## Introduction
 
-Objective:
+### Purpose
+The purpose of this writing is to provide a "in-a-nutshell" kind of summary on key topics frequently tested in quantitative interviews in finance.
+The most relevant roles are quantitative researchers/developers/analysts, portfolio researcher/analysts, risk modeller/analysts etc.
+More recently, we also saw tech-heavy data scientist/machine learning scientist interviews to start feature similar types of questions discussed here.
 
+### Who are we
+The lead contributors so far (we hope to see more contributors as this project evolves) typically have an advanced degree in a
+quantitative field (some of them also spent time at top tech firms) and then made a successful transition into finance (top hedge funds and banks).
 
-Content:
-Pertinent, concise, intuitive, self-contained.
-
-Focus:
-Generalizable knowledge points, methods and problem solving strategies rather than exact questions.
-(For those interested in interview question pool please visit xxx and yyy instead
-
-
+### Writing guidelines
+We strive to make sure to only include content that are pertinent and deliver it in a concise, intuitive, and self-contained fashion.
+We will focus on generalizable knowledge points, methods and problem solving strategies rather than exact questions.
+(For those interested in interview question pool please visit *link_to_other_sites* instead)
 
 
   
@@ -49,8 +53,17 @@ Generalizable knowledge points, methods and problem solving strategies rather th
 
 
 ## Probability
+Probability puzzles are reported to be the hardest and most unpredictable type of interview questions. This does not have to be the case for you.
+Solving probability interview questions is really all about pattern recognition and then applying the correct tools/theorems.
+Once you recognize the underlying mechanics of a problem it is usually no more than two or three quick steps away from the answer.
+What this requires is a thorough and, more importantly, intuitive understanding of the key concepts, coupled with sufficient amount of practice to improve your patter recognition skills.
+Probability problems should be fun to solve
+
+### Event, outcome, random variable, and probability
+
+
 ### Combinatorics
-- Permutation
+- **Roadmap** Permutation
 - Combinations
 - Inclusion-exclusion
 
@@ -78,10 +91,10 @@ Generalizable knowledge points, methods and problem solving strategies rather th
 - expectation of min and max and random variable
 
 ### Graph-based solutions involving multiple random variables
-breaking stick
-meeting at the train station
-simplex
-frog jump
+- breaking stick
+- meeting at the train station
+- simplex
+- frog jump
 
 ### Approximation trick1: Central limit theorem
 - fake coin
@@ -96,10 +109,15 @@ frog jump
 
 ### Markov chain tricks
 - various games
+    - coin toss consecutive H
 - introduction of martingale
 
 
 ## Statistics
+- z score, t-test, F-test, chi2 test
+- p-value
+- sampling
+- AIC, BIC
 
 
 ## Programming essentials
@@ -108,19 +126,47 @@ The bare minimum of coding concept you need to know well.
 Material on these topics are widely available elsewhere, so we will just cite them here.
 
 Data structures:
+
 array, dict, link list, tree, heap, graph, ways of representing sparse matrix
 
-Sorting: brilliant.org
+Sorting:
+
+brilliant.org
 
 Tree/Graph related algorithms
+
 traversal (BFS, DFS)
 shortest path (two sided BFS, djikstra)
 
-Recuision, iteration and DP:
+Recuision, iteration and DP
 
 ## Numerical methods and optimization
+- computer errors (e.g. float)
+- root finding (newton method, bisection, secant etc)
+- interpolating
+- numerical integration and difference
+- finite difference
+- numerical method in linear algebra
+    - solving linear equations
+    - matrix decompositions
+    - eigen problems
+    - special cases
 
 ## Machine learning concepts
+- Models
+    - linear regression
+    - logistic regression
+    - tree methods
+    - SVM
+    - generative vs descriptive models
+        - Gaussian mixture, Naive bayes
+- Training theory
+    - bias vs variance
+    - feature selection
+    - model validation
+    - model metrics
+    - ensemble method, boosting, bagging
+- deep learning topics
 
 
 
