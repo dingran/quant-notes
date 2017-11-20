@@ -1,4 +1,4 @@
-# Quantitative interview questions and strategies
+# Quantitative Finance Interview Questions and Strategies
 
 ## Introduction
 
@@ -92,7 +92,7 @@ Probability problems should be fun to solve and let's begin!
     - simplex
     - frog jump
 
-- Approximation trick1: Central limit theorem
+- Approximation trick1: [Central limit theorem](prob_clt.ipynb)
     - fake coin
     - monte carlo integration
 
