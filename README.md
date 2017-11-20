@@ -51,12 +51,14 @@ Probability puzzles are reported to be the hardest and most unpredictable type o
 Solving probability interview questions is really all about pattern recognition and then applying the correct tools/theorems.
 Once you recognize the underlying mechanics of a problem it is usually no more than two or three quick steps away from the answer.
 What this requires is a thorough and, more importantly, intuitive understanding of the key concepts, coupled with sufficient amount of practice to improve your patter recognition skills.
-Probability problems should be fun to solve
+
+Probability problems should be fun to solve and let's begin!
+
 
 - Event, outcome, random variable, and probability
 
 - Combinatorics
-    - **Roadmap** Permutation
+    - Permutation
     - Combinations
     - Inclusion-exclusion
 
@@ -71,6 +73,7 @@ Probability problems should be fun to solve
 
 - Expectations, variance, and covariance
     - linearity of expectation
+        - solving problems with this theorem and symmetry
     - law of total expectation
     - covariance and correlation
     - independence implies zero correlation
@@ -148,13 +151,13 @@ Material on these topics are widely available elsewhere, so we will just cite th
     - SVM
     - generative vs descriptive models
         - Gaussian mixture, Naive bayes
-- Training theory
+- Learning theory
     - bias vs variance
     - feature selection
     - model validation
     - model metrics
     - ensemble method, boosting, bagging
-- deep learning topics
+- Deep learning topics
 
 
 
