@@ -144,7 +144,7 @@ Material on these topics are widely available elsewhere, so we will just cite th
     - special cases
 
 ## Machine learning concepts
-- Models
+- Models: See [these blog series](http://dshacker.blogspot.com/2015/07/machine-learning-and-statistics-unified.html) for reference
     - linear regression
     - logistic regression
     - tree methods
