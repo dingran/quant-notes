@@ -92,16 +92,13 @@ Probability problems should be fun to solve and let's begin!
     - simplex
     - frog jump
 
-- Approximation trick1: [Central limit theorem](prob_clt.ipynb)
-    - fake coin
-    - monte carlo integration
+- [Approximation method: Central Limit Theorem](central_limit_theorem.ipynb)
 
-- Approximation trick2: Poisson paradigm
-    - birthday problem, birthday triplets, near birthday problem
-    - repeated draws
+- [Approximation method: Poisson Paradigm](poisson_paradigm.ipynb)
+
 
 - Poisson count/time duality
-    - possion from possions
+    - poisson from poissons
 
 - Markov chain tricks
     - various games
