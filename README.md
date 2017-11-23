@@ -1,19 +1,22 @@
 # Quantitative Interview Preparation Guide
 
-Quantitative interviews in finance industry tend to cover a diverse set of topics in math, statistics, computer science and machine learning, and thus can pose some challenges for preparation. After going through the interview process and/or worked in the industry for a while, a few of us decided to put toegther a preparation guide. We come from a technical background (advanced degrees in quantitative field and/or worked in technology industry) and hope this writing will help people with similar background make a successful transition into quantitative finance (if that is what you decided you want to do, of course).
+### Quantitative interviews 
+in finance industry tend to cover a diverse set of topics in math, statistics, computer science and machine learning, and thus can pose some challenges for preparation. After going through the interview process and/or worked in the industry for a while, a few of us decided to put toegther a preparation guide. We come from a technical background (advanced degrees in quantitative field and/or worked in technology industry) and hope this writing will help people with similar background make a successful transition into quantitative finance (if that is what you decided you want to do, of course).
 
 Depending on the types of firm (e.g. buy-side vs sell-side), functional areas (risk modelling, portfolio optimization, trading signal generation etc), the amount of code vs. math involved (e.g. developer vs researcher), the distance to trading and the types of trading (strategy, frequency etc), there are many types of quant jobs and we encourage you to explore and understand the distinctions between them in order to better gauge your interest and fit.
 
-We selected 7 technical topics, they range from "old" math to the industry's new favorate: machine learning. We have intentionally left out finance topics, since we believe we won't be able to do a better job than the existing classic text on those topics.
+### In this writing
+we selected 7 technical areas, they range from "old" math to the industry's new favorate: machine learning. For each area we will have a number of topics. We have intentionally left out finance topics, since we believe we won't be able to do a better job than the existing classic text on them.
 
 We strive to make sure to only include content that is pertinent and deliver it in a concise, intuitive, and self-contained fashion. We will focus on generalizable knowledge points, methods and problem solving strategies rather than exact questions. (For those interested in interview question pool please visit *link_to_other_sites* instead).
 
-** Contribute **
-If you wish to contribute to this writing or have feedback for us, please do feel free to submit a pull request or open an issue.
+This writing will use Jupyter notebooks due to its easy of displaying LaTex equations, code blocks and graphics. One notebook per topic. This README file will keep a list of topics we plan to write about. Once a topic is drafted, the plain text with be replaced with a link pointing to the [nbviewer](https://nbviewer.jupyter.org/) rendering of the notebook.
 
+### Contribute
+If you have feedback or wish to contribute to this writing, please do feel free to open an issue or submit a pull request.
 
+--- 
 ## Table of Content
----
 
   * [Calculus](#calculus)
   * [Linear algebra](#linear-algebra)
