@@ -1,20 +1,15 @@
-# Quantitative Finance Interview Questions and Strategies
+# Quantitative Interview Preparation Guide
 
-## Introduction
+Quantitative interviews in finance industry tend to cover a diverse set of topics in math, statistics, computer science and machine learning, and thus can pose some challenges for preparation. After going through the interview process and/or worked in the industry for a while, a few of us decided to put toegther a preparation guide. We come from a technical background (advanced degrees in quantitative field and/or worked in technology industry) and hope this writing will help people with similar background make a successful transition into quantitative finance (if that is what you decided you want to do, of course).
 
-### Purpose
-The purpose of this writing is to provide a "in-a-nutshell" kind of summary on key topics frequently tested in quantitative interviews in finance.
-The most relevant roles are quantitative researchers/developers/analysts, portfolio researcher/analysts, risk modeller/analysts etc.
-More recently, we also saw tech-heavy data scientist/machine learning scientist interviews to start feature similar types of questions discussed here.
+Depending on the types of firm (e.g. buy-side vs sell-side), functional areas (risk modelling, portfolio optimization, trading signal generation etc), the amount of code vs. math involved (e.g. developer vs researcher), the distance to trading and the types of trading (strategy, frequency etc), there are many types of quant jobs and we encourage you to explore and understand the distinctions between them in order to better gauge your interest and fit.
 
-### Who are we
-The lead contributors so far (we hope to see more contributors as this project evolves) typically have an advanced degree in a
-quantitative field (some of them also spent time at top tech firms) and then made a successful transition into finance (top hedge funds and banks).
+We selected 7 technical topics, they range from "old" math to the industry's new favorate: machine learning. We have intentionally left out finance topics, since we believe we won't be able to do a better job than the existing classic text on those topics.
 
-### Writing guidelines
-We strive to make sure to only include content that are pertinent and deliver it in a concise, intuitive, and self-contained fashion.
-We will focus on generalizable knowledge points, methods and problem solving strategies rather than exact questions.
-(For those interested in interview question pool please visit *link_to_other_sites* instead)
+We strive to make sure to only include content that is pertinent and deliver it in a concise, intuitive, and self-contained fashion. We will focus on generalizable knowledge points, methods and problem solving strategies rather than exact questions. (For those interested in interview question pool please visit *link_to_other_sites* instead).
+
+** Contribute **
+If you wish to contribute to this writing or have feedback for us, please do feel free to submit a pull request or open an issue.
 
 
 ## Table of Content
@@ -26,14 +21,30 @@ We will focus on generalizable knowledge points, methods and problem solving str
   * [Statistics](#statistics)
   * [Programming essentials](#programming-essentials)
   * [Numerical methods and optimization](#numerical-methods-and-optimization)
-  * [Machine learning concepts](#machine-learning-concepts)
-  * [Contribute](#contribute)
+  * [Machine learning](#machine-learning)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ---
 
 ## Calculus
+- Derivatives
+    - product rule, chain rule, power rule, L'Hospital's rule,
+    - partial and total derivative (e.g. z = y*x, y= 2*x)
+    - things worth remembering
+        - common function's derivatives
+        - limits and approximations
+    - Applications of derivatives
+        - monotonicity, max/min
+- Integration
+    - power rule, integration by sub, integration by part
+    - change of coordinates
+- Taylor expansion
+    - single and multiple variables
+    - Taylor/McLauren series for common functions
+    - Derive Newton-Raphson
+- ODEs
+- PDEs
 
 
 ## Linear algebra
@@ -41,8 +52,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 - matrix operations (transpose, determinant, inverse etc)
 - types of matrices (symmetric, hermition, orthogonal etc)
 - eigenvalue and eigenvectors
-- matrix calculus (gradients, hessian etc
+- matrix calculus (gradients, hessian etc)
 - useful theorems
+- matrix decomposition
+- applications, types of problems
 
 
 
@@ -55,7 +68,7 @@ What this requires is a thorough and, more importantly, intuitive understanding 
 Probability problems should be fun to solve and let's begin!
 
 
-- [Basic concepts](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/prob_concepts.ipynb)
+- [Basic concepts](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/prob/prob_concepts.ipynb)
     - Event, outcome, random variable, probability and probability distributions
 
 - Combinatorics
@@ -93,10 +106,10 @@ Probability problems should be fun to solve and let's begin!
     - simplex
     - frog jump
 
-- [Approximation method: Central Limit Theorem](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/central_limit_theorem.ipynb)
+- [Approximation method: Central Limit Theorem](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/prob/central_limit_theorem.ipynb)
     - Definition, examples (unfair coins, Monte Carlo integration)
 
-- [Approximation method: Poisson Paradigm](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/poisson_paradigm.ipynb)
+- [Approximation method: Poisson Paradigm](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/prob/poisson_paradigm.ipynb)
     - Definition, examples (duplicated draw, near birthday problem)
 
 
@@ -143,7 +156,7 @@ Material on these topics are widely available elsewhere, so we will just cite th
     - eigen problems
     - special cases
 
-## Machine learning concepts
+## Machine learning
 - Models: See [these blog series](http://dshacker.blogspot.com/2015/07/machine-learning-and-statistics-unified.html) for reference
     - linear regression
     - logistic regression
@@ -161,7 +174,4 @@ Material on these topics are widely available elsewhere, so we will just cite th
 
 
 
-## Contribute
-If you wish to contribute to this writing, feel free to submit a PR.
 
-If you wish to contribute anonymously, please contact us at TBD
