@@ -55,7 +55,7 @@ What this requires is a thorough and, more importantly, intuitive understanding 
 Probability problems should be fun to solve and let's begin!
 
 
-- [Basic concepts](prob_concepts.ipynb)
+- [Basic concepts](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/prob_concepts.ipynb)
     - Event, outcome, random variable, probability and probability distributions
 
 - Combinatorics
@@ -93,10 +93,10 @@ Probability problems should be fun to solve and let's begin!
     - simplex
     - frog jump
 
-- [Approximation method: Central Limit Theorem](central_limit_theorem.ipynb)
+- [Approximation method: Central Limit Theorem](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/central_limit_theorem.ipynb)
     - Definition, examples (unfair coins, Monte Carlo integration)
 
-- [Approximation method: Poisson Paradigm](poisson_paradigm.ipynb)
+- [Approximation method: Poisson Paradigm](https://nbviewer.jupyter.org/github/rd1019/quant-interview-tips/blob/master/poisson_paradigm.ipynb)
     - Definition, examples (duplicated draw, near birthday problem)
 
 
