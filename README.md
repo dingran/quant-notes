@@ -55,7 +55,8 @@ What this requires is a thorough and, more importantly, intuitive understanding 
 Probability problems should be fun to solve and let's begin!
 
 
-- Event, outcome, random variable, and probability
+- [Basic concepts](prob_concepts.ipynb)
+    - Event, outcome, random variable, probability and probability distributions
 
 - Combinatorics
     - Permutation
@@ -93,8 +94,10 @@ Probability problems should be fun to solve and let's begin!
     - frog jump
 
 - [Approximation method: Central Limit Theorem](central_limit_theorem.ipynb)
+    - Definition, examples (unfair coins, Monte Carlo integration)
 
 - [Approximation method: Poisson Paradigm](poisson_paradigm.ipynb)
+    - Definition, examples (duplicated draw, near birthday problem)
 
 
 - Poisson count/time duality
