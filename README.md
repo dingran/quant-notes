@@ -167,6 +167,9 @@ Material on these topics are widely available elsewhere, so we will just cite th
     - SVM
     - generative vs descriptive models
         - Gaussian mixture, Naive bayes
+- Optimization algorithms
+    - gradient descent, sgd and other popular variants (RMSProp, Adagrad, Adam etc)
+    - EM algorithm
 - Learning theory
     - bias vs variance
     - feature selection
@@ -174,6 +177,11 @@ Material on these topics are widely available elsewhere, so we will just cite th
     - model metrics
     - ensemble method, boosting, bagging
 - Deep learning topics
+    - feedforward networks
+    - backprop
+    - cnn
+    - rnn/lstm/gru
+    - dropout, batchnorm
 
 
 
