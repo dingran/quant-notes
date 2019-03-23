@@ -1,3 +1,5 @@
+# Preparations for DS/AI/ML/Quant
+
 ## What is this
 
 A short list of resources and topics covering the essential quantitative tools for data scientists, AI/machine learning practitioners, quant developers/researchers and those who are preparing to interview for these roles.
@@ -15,9 +17,9 @@ Depending on the type of roles, the emphasis can be quite different. For example
 
 A minimalist list of the best/most practical ones:
 
-![]({{ "cs229.png" | absolute_url }})
-![]({{ "mit6006.jpg" | absolute_url }})
-![]({{ "stats110.jpg" | absolute_url }})
+![](cs229.png)
+![](mit6006.jpg)
+![](stats110.jpg)
 
 Machine Learning:
 
